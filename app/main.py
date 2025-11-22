@@ -70,4 +70,3 @@ class Distance:
         elif isinstance(other, (int, float)):
             return self.km >= other
         return NotImplemented
-
